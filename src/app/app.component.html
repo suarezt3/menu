@@ -1,7 +1,7 @@
 <header>
-  <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+  <button id="abrir" (click)="abrir()" class="abrir-menu"><i class="bi bi-list"></i></button>
   <nav class="nav" id="nav">
-      <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+      <button class="cerrar-menu" id="cerrar" (click)="cerrar()" ><i class="bi bi-x"></i></button>
       <ul class="nav-list">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Quiénes somos</a></li>
